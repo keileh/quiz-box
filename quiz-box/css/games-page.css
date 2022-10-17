@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700');
-@import url(/css/header.css);
-@import url(/css/hero.css);
-@import url(/css/btn.css);
-@import url(/css/footer.css);
-@import url(/css/normalize.css);
+@import url(header.css);
+@import url(hero.css);
+@import url(btn.css);
+@import url(footer.css);
+@import url(normalize.css);
 
 body {
     font-family: 'Open Sans', sans-serif;
