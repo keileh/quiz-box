@@ -59,28 +59,28 @@
 }
 
 .media__item-icon-tg .media__link {
-    background-image: url(/img/sprites-telegram.png);
+    background-image: url(../img/sprites-telegram.png);
     background-repeat: no-repeat;
     display: block;
     background-position: -51px -5px;
 }
 
 .media__item-icon-vk .media__link {
-    background-image: url(/img/sprites-vk.png);
+    background-image: url(../img/sprites-vk.png);
     background-repeat: no-repeat;
     display: block;
     background-position: -51px -5px;
 }
 
 .media__item-icon-f .media__link {
-    background-image: url(/img/sprites-facebook.png);
+    background-image: url(../img/sprites-facebook.png);
     background-repeat: no-repeat;
     display: block;
     background-position: -5px -5px;
 }
 
 .media__item-icon-inst .media__link {
-    background-image: url(/img/sprites-inst.png);
+    background-image: url(../img/sprites-inst.png);
     background-repeat: no-repeat;
     display: block;
     background-position: -5px -5px;
