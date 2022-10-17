@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700');
+@import url(/css/header.css);
+@import url(/css/footer.css);
+@import url(/css/btn.css);
+@import url(/css/normalize.css);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.42;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.top-line {
+    display: flex;
+    flex-direction: column;
+    min-height: 390px;
+    padding-bottom: 15px;
+    background: url(../img/background-header.png) left top no-repeat;
+}
+
+.top-line__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    height: 74px;
+}
+
+.contacts__phone {
+    color: #fff;
+}
+
+.dropdown__title {
+    color: #fff;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.breadcrumbs__item:first-child {
+    padding-left: 0px;
+}
+
+.breadcrumbs__item-active .breadcrumbs__link {
+    text-decoration: none;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: #9A9A9A;
+    padding-left: 5px;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+    font-size: 14px;
+}
+
+/*  */
+
+.pagination {
+    text-align: center;
+}
+
+.pagination__display, .pagination__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination__display {
+    margin-right: 26px;
+    font-size: 16px;
+}
+
+.pagination__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.pagination__item-active .pagination__link {
+    background: #8F00FF;
+}
+
+.page-content {
+    padding-bottom: 65px;
+    padding-top: 100px;
+}
+
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+    padding-bottom: 71px;
+}
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.reviews__item {
+    background: #F4F5F5;
+    margin-right: 18px;
+    padding: 50px 30px;
+    margin-bottom: 20px;
+}
+
+.review__photo {
+    margin-right: 24px;
+}
+
+.avatar {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.review__user {
+    color: #2E77A4;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 13px;
+    color: #303030;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+
+.review__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1A1B1E;
+}
+
+.review__text {
+    font-size: 16px;
+    color: #818181;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+.review__user:after {
+    content: url(/img/vk__icon.png);
+    height: 30px;
+    padding-left: 7px;
+}
+
+.review__date {
+    font-weight: 600;
+    color: #1A1B1E;
+}
+
+.tag--bg--green {
+    background: #B9EAE4;
+}
+
+.separator {
+    background: #17191C url(/img/review-separator.png) right 20% bottom no-repeat;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.separator__content {
+    max-width: 42%;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.review__form {
+    background: #F4F5F5;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.form__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+
+.form__input::placeholder {
+    color: #666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input-textarea {
+    height: 320px;
+}
+
+.form__controls {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.form__controls-title {
+    width: 35%;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.controls__checkbox:checked + .controls__tag {
+    background: #B9EAE4;
+}
+
+.btn-color-grey {
+    background: #8E8E8E;
+}
+
+.btn-color-grey:hover {
+    background: #2B2B2B;
+}
+
+.btn-color-purple:hover {
+    background: #741BBA;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__btn {
+    margin-right: 20px;
+}
+
+.form__btn:last-child {
+    margin-right: 0;
+}
+
+.footer {
+    background: #17191C;
+    height: 127px;
+}
+
+.contacts__phone {
+    color: #fff;
+}
+
+.dropdown__link {
+    color: #fff;
+}
+
+/*  */
+
+.media__list {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-download {
+    width: 36px;
+    height: 36px;
+    background-position: -5px -5px;
+}
+
+.sprite-download {
+    width: 36px;
+    height: 36px;
+    background-position: -51px -5px;
+}
+
+.sprite-download {
+    width: 36px;
+    height: 36px;
+    background-position: -97px -5px;
+}
+
+.sprite-f2 {
+    width: 36px;
+    height: 36px;
+    background-position: -143px -5px;
+}
+
+.sprite-in {
+    width: 36px;
+    height: 36px;
+    background-position: -189px -5px;
+}
+
+.sprite-in {
+    width: 36px;
+    height: 36px;
+    background-position: -235px -5px;
+}
+
+.sprite-vk {
+    width: 36px;
+    height: 36px;
+    background-position: -281px -5px;
+}
+
+.sprite-vk {
+    width: 36px;
+    height: 36px;
+    background-position: -327px -5px;
+}
