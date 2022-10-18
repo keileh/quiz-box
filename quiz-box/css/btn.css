@@ -9,3 +9,10 @@
     display: inline;
     font-size: 14px;
 }
+
+.btn:hover {
+    background: #741BBA;
+    transition-duration: 0.5s;
+    -webkit-box-shadow: 0 0 5px #741BBA;
+}
+
