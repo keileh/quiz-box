@@ -61,6 +61,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 74px;
 }
 
+.dropdown__link {
+    color: #fff;
+}
+
 .hero__title {
     font-size: 72px;
     font-weight: 700;
